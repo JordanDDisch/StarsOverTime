@@ -1,0 +1,35 @@
+{
+  "name": "herebegear_node",
+  "version": "1.0.0",
+  "description": "Herebegear in node",
+  "main": "yes",
+  "scripts": {
+    "start": "echo \"open localhost:8080/\" && ./node_modules/.bin/browservefy game.js 8080 -- -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "herebegear_node"
+  },
+  "author": "Jordan D Disch",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.3.0",
+    "browserify": "^10.1.1",
+    "event-stream": "^3.3.1",
+    "express": "^4.12.3",
+    "express3-handlebars": "^0.5.2",
+    "hyperquest": "^1.2.0",
+    "voxel-engine": "^0.20.2"
+  },
+  "devDependencies": {
+    "bluebird": "^2.9.25",
+    "browservefy": "0.0.10",
+    "github": "^0.2.4",
+    "jsonist": "^1.0.2",
+    "parse-link-header": "^0.2.0",
+    "q": "^1.3.0",
+    "route-cache": "^0.1.2",
+    "three": "^0.71.0",
+    "voxel-player": "^0.1.0"
+  }
+}
